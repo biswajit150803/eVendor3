@@ -39,7 +39,7 @@ const Cate = () => {
     if (currentUsername) {
       setS(true);
     } else {
-      window.location.replace("https://evendorl-1wnf.onrender.com//");
+      window.location.replace("https://evendorl-1wnf.onrender.com/");
       setS(false);
     }
   }, [currentUsername]);
@@ -164,7 +164,7 @@ const Cate = () => {
           </section>
         </div>
       </header>
-      <CatMap category={currentCat} />
+      <CatMap category={currentCat} user={currentUsername} />
       <Category />
       <FAQC />
       <div className="Footer">

@@ -186,6 +186,7 @@ function Map(props) {
     if (searchVal === "") {
       // setProducts(items);
       setload(true);
+      setSideBox(sideBox2);
       return;
     }
     const filterBySearch = items.filter((it) => {
@@ -440,6 +441,9 @@ function Map(props) {
       }
     });
   }
+  React.useEffect(()=>{
+    setSideBox(sideBox2)
+  },[reset])
 
   return (
     <div className="map-sidebox">
