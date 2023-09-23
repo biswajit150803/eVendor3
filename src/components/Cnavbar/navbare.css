@@ -13,8 +13,8 @@ body {
     cursor: pointer;
     padding: 0!important;
     margin-right: -12vw;
-    color: white;
-    font-size: 25px;
+    color: white !important;
+    font-size: 25px !important;
   }
 .navbar {
     
