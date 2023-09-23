@@ -39,7 +39,7 @@ const Cate = () => {
     if (currentUsername) {
       setS(true);
     } else {
-      window.location.replace("https://evendorl-1wnf.onrender.com/");
+      window.location.replace("http://localhost:5173/");
       setS(false);
     }
   }, [currentUsername]);

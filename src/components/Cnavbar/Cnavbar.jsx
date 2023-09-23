@@ -48,12 +48,12 @@ function past(){
               <li className="hov" onClick={home}  style={{cursor:"pointer"}}>
                 Home
               </li>
-              <li className="hov" onClick={current} style={{cursor:"pointer"}}>
+              {/* <li className="hov" onClick={current} style={{cursor:"pointer"}}>
                 Current Orders
               </li>
               <li className="hov" onClick={past}  style={{cursor:"pointer"}}>
                 Past Orders
-              </li>
+              </li> */}
               <li className="hov">
                 <NavLink to="/contact">Contact</NavLink>
               </li>
