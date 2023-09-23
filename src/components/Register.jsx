@@ -44,7 +44,7 @@ const Register = () => {
       await axios.post("http://localhost:8009/api/customers/register", newUser);
       setError(false);
       setSuccess(true);
-      window.location.replace("http://localhost:5173");
+      window.location.replace("https://evendorl-1wnf.onrender.com/");
     } catch (err) {
       setError(true);
     }
